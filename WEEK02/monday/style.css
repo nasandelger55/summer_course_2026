@@ -1,0 +1,42 @@
+/* External CSS */
+
+#external {
+  color: green;
+}
+
+.author {
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.todos {
+  list-style: square;
+}
+
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.text {
+  line-height: 1.6;
+}
