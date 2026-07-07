@@ -1,0 +1,29 @@
+#naadam-festival{
+    background-color:blanchedalmond;
+     border-top-style:dashed;
+    border: top color #b46666;
+    border-top-width: 2px;
+    border-left-style: dotted;
+    border-left-color:#b46666
+    border-left-width 3px
+    border-right_style dotted;
+    border-right-color: blue;
+    border-right-width: 3px
+ 
+
+}
+   
+
+
+
+.naadam-units{
+    background-color: blue;
+    color:tomato;
+    text-align: right;
+
+    border: 5px solid rgba(255,155, 155, );
+
+}
+h2 {
+    border: 5px dotted purple;
+}
