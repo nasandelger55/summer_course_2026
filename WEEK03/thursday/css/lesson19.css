@@ -1,0 +1,186 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:40px;
+}
+
+
+
+.exercise1{
+    display:flex;
+    gap:10px;
+    margin-bottom:50px;
+}
+
+.box{
+    width:60px;
+    height:30px;
+    color:gray;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.green{background:limegreen;}
+.orange{background:orange;}
+.pink{background:pink;}
+.red{background:red;}
+.purple{background:plum;}
+
+
+
+.exercise2{
+    width:300px;
+    height:300px;
+    border:2px solid #333;
+
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.item{
+    width:50%;
+    height:50%;
+    box-sizing:border-box;
+    border:3px solid #333;
+}
+
+.yellow{background:yellow;}
+.orange{background:orange;}
+.pink{background:pink;}
+.red{background:red;}
+
+
+.exercise3{
+   width:380px;
+    border: 5px solid black;
+
+}
+
+.row{
+    display:flex;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+.left{
+    width:120px;
+    height:50px;
+    background:#b8f3d1;
+    border: 1px solid black;
+}
+
+.right{
+    flex:1;
+    height:50px;
+    background:#9fdcff;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bottom{
+    height:60px;
+    background:#d88af5;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ex4{
+    width:420px;
+    height:760px;
+    border:2px solid #555;
+    display:flex;
+    gap:10px;
+    padding-inline: 10px;
+}
+
+.left{
+    width: 130px;
+    height: 80px;
+    background:#f25d6d;
+}
+
+.right{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.top{
+    height:50px;
+    background:#d1004f;
+}
+
+.bottom{
+    flex:1;
+    display:flex;
+    gap:10px;
+}
+
+.box{
+    flex:1;
+    background:#001a52;
+}
+
+.card{
+    width:650px;
+    display:flex;
+    border-radius:10px;
+    overflow:hidden;
+    border:1px solid #ddd;
+    font-family:Cochin;
+}
+
+
+.profile{
+    width:180px;
+    background:#F8FDCF;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    padding:20px;
+    border-right:2px dashed gray;
+}
+
+.profile img{
+    width:110px;
+}
+
+.level,
+.points{
+    border:1px solid gray;
+    border-radius:20px;
+    padding:5px 15px;
+    font-size:14px;
+}
+
+.info{
+    flex:1;
+    background:#F3FDE8;
+    padding:25px;
+}
+
+.row{
+    display:flex;
+    justify-content:space-between;
+    margin:15px 0;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-around;
+    margin-top:40px;
+    text-align:center;
+}
+
+.stats div{
+    font-size:28px;
+}
+
+.stats p{
+    margin-top:5px;
+    font-size:16px;
+}
