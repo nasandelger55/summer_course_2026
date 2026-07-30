@@ -1,0 +1,16 @@
+body {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+@media (min-width:768px) {
+    .badge {
+        background-color: #f39c12;
+    }
+}
+@media (min-width: 1024px){
+    .badge {
+        background-color: #27ae60;
+    }
+}
