@@ -1,0 +1,17 @@
+@media (min-width: 768px){
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+}
+.cards{
+    margin-bottom: 0;
+}
+
+}
+@media (min-width: 1024) {
+    .cards{
+        grid-template-columns: repait(3,1fr);
+    }
+
+}
